@@ -1,0 +1,61 @@
+.row{
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.row > p{
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+}
+
+.col-5 > p{
+    margin-top: -70px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #cc85d3;
+    color: rgb(221, 12, 179);
+
+}
+
+table, tr, td, th{
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th{
+    background-color: #d385b9;
+}
+
+table{
+    width: 100%;
+    height: 100px;
+}
+
+#button_buyticket{
+    width: 70%;
+    display: block;
+    margin: auto;
+    background-color: blue;
+}
+
+.col-5{
+    margin-top: -100px;
+    background-color: blanchedalmond;
+    padding-top: 100px;
+    height: 400px;
+    border-radius: 5%;
+}
+
+#button_input{
+    background-color: rgb(255, 0, 191);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-5 > form, table{
+    margin-top: -70px;
+}

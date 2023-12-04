@@ -1,0 +1,62 @@
+.row{
+    margin-top: 100px;
+    
+}
+.row > .col-4 > .login{
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: -15px;
+    background: #ccc;
+}
+.row > .col-4 > .another_login{
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 4px;
+    background: #ccc;
+}
+.row > .col-4 > .another_login > a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.row > .col-4 > .another_login > p >  span > a{
+    text-decoration: none;
+}
+
+.row > .col-4 > h1{
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.row > .col-4> .picture > img{
+    height: 70px;
+    width: 90px;
+    margin-top: -50px;
+    margin-left: 130px;
+}
+.row > .col-4 > .login > form{
+    padding: 5px  10px; 
+}
+.row > .col-4 > .login > form > input{
+    padding-top: 4px;
+}
+.row > .col-4 > .login> form > a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Register */
+.row > .col-4 > .register {
+    border: 1px solid #000;
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: -20px;
+    background: #ccc;
+}
+.row > .col-4 > .register > form  {
+    padding: 5px 10px;
+    
+}
